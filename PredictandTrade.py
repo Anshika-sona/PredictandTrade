@@ -29,10 +29,10 @@ add_meta_tag()
 
 # Sidebar Section Starts Here
 today = date.today()  # today's date
-st.write('''# StockStream ''')  # title
+st.write('''# PredictandTrade ''')  # title
 st.sidebar.image("Images/StockStreamLogo1.png", width=250,
                  use_column_width=False)  # logo
-st.sidebar.write('''# StockStream ''')
+st.sidebar.write('''# PredictandTrade ''')
 
 with st.sidebar: 
         selected = option_menu("Utilities", ["Stocks Performance Comparison", "Real-Time Stock Price", "Stock Prediction", 'About'])
@@ -283,5 +283,5 @@ elif(selected == 'About'):
     </style>
     """, unsafe_allow_html=True)
     
-    st.markdown('<p class="big-font">StockStream is a web application that allows users to visualize Stock Performance Comparison, Real-Time Stock Prices and Stock Price Prediction. This application is developed using Streamlit. Streamlit is an open source app framework in Python language. It helps users to create web apps for Data Science and Machine Learning in a short time. This Project is developed by Vaishnavi Sharma and Rohit More. You can find more about the developers on their GitHub Profiles shared below.<br>Hope you are able to employ this application well and get your desired output.<br> Cheers!</p>', unsafe_allow_html=True)
+    st.markdown('<p class="big-font">PredictandTrade is a web application that allows users to visualize Stock Performance Comparison, Real-Time Stock Prices and Stock Price Prediction. This application is developed using Streamlit. Streamlit is an open source app framework in Python language. It helps users to create web apps for Data Science and Machine Learning in a short time. This Project is developed by Vaishnavi Sharma and Rohit More. You can find more about the developers on their GitHub Profiles shared below.<br>Hope you are able to employ this application well and get your desired output.<br> Cheers!</p>', unsafe_allow_html=True)
     
